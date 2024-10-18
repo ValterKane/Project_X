@@ -24,7 +24,6 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
   tests:
-    needs: [build]
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
