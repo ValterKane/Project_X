@@ -1,4 +1,4 @@
-namespace ProjectX.Models;
+namespace ProjectX.DAL.Models;
 
 public class ErrorViewModel
 {
